@@ -1,3 +1,35 @@
+
+"Задание №1.1."
+
+let message = 'productName' + " " + "за" + " " + 'productPrice' + " " + "теперь в корзине";
+
+console.log(message);
+
+"Конец решения задания №1.1."
+
+"Задание №1.2."
+
+let newValue = 'oldValue';
+console.log('oldValue' + 1);
+
+console.log('hi')
+"Конец решения задания №1.2."
+
+
+"Задание №1.3."
+
+let newSum = oldSum + difference;
+let newSumText = newSum + 'Рублей';
+let currency = "Рублей";
+let newSumText = newSum&{currency};
+
+"Конец решения задания №1.3."
+
+
+
+
+
+
 function addInCartMessage(title, price) {
     let productName = title;
     let productPrice = price;

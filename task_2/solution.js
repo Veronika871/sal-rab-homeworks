@@ -1,3 +1,36 @@
+"Задание №2.1." 
+let productsSum = "sum";
+let freeShippingMinSum = "min";
+let shippingPrice = "shipping";
+
+if (productsSum == 0 && productsSum >= freeShippingMinSum) {
+console.log(shippingPrice == 0);
+
+}
+else {
+    console.log(shippingSum == shippingPrice);
+}
+
+"Конец решения задания №2.1."
+
+"Задание №2.2." 
+
+let discountSum = productsSum >= discountMinSum ? productsSum/100 * discountPart : 0;
+
+"Конец решения задания №2.2."
+
+"Задание №2.3." 
+
+let totalSum = productsSum;
+let freeShipping;
+
+
+console.log(totalSum - discountSum);
+console.log(totalSum + shippingSum);
+
+(shippingSum == 0) ? freeShipping = true : freeShipping = false;
+
+"Конец решения задания №2.3."
 function calcShipping(sum, min, shipping) {
     let productsSum = sum; // сумма в корзине
     let freeShippingMinSum = min; // минимальная цена для бесплатной доставки
