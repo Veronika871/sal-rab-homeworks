@@ -1,14 +1,8 @@
 
 
-"Конец решения задания №2.3."
-function calcShipping(sum, min, shipping) {
-    let productsSum = sum; // сумма в корзине
-    let freeShippingMinSum = min; // минимальная цена для бесплатной доставки
-    let shippingPrice = shipping; // стоимость доставки
-
     // Задание №2.1. Рассчитать доставку
 
-    let productsSum = sum;
+    let productsSum;
     let freeShippingMinSum = min;
     let shippingPrice = shipping;
     let shippingSum;
