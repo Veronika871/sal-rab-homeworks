@@ -19,7 +19,7 @@ else {
 
 
     return shippingSum;
-}
+
 
 function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shippingPrice}) {
     let productsSum = sum;
