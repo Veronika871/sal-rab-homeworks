@@ -31,13 +31,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
     let discountMinSum = 700; 
     let discountPart = 0.1;
 
-
-    if (productsSum >= discountMinSum) {
-        console.log (discountSum == discountPart * productsSum);
-    }
-    else {
-        console.log (discountSum == 0);
-    }
+    let discountSum = productsSum >= discountMinSum ? productsSum / 100 * discountPart : 0;
 
 
     // Конец решения задания №2.2.
