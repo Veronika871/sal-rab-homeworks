@@ -35,14 +35,16 @@
 
 function sendRequest(name, phone, address, goods, sum) {
     let data = {
-        client: [],
+        client: "Вероника + 7 (926)474-88-30",
         goods: [
-            title,
-            count
+           { 
+               title: "Роллы",
+            count: 2 
+           }
         ], 
         order: {
-            address: [],
-            sum: []
+            address: "ул. Бориса Пастернака, д. 10, 1 подъезд, 9 этаж, кв. 35",
+            sum: 1100
         }
     };
 
@@ -55,7 +57,7 @@ function sendRequest(name, phone, address, goods, sum) {
     data.order.address = address;
     data.order.sum = name + phone + address + goods + sum;
 
-    data.client = 'Иван';
+    data.client = 'Вероника';
 
     let jsonData = JSON.stringify(data);
 
