@@ -55,6 +55,7 @@ function sendRequest(name, phone, address, goods, sum) {
         data.goods.push(goods[i].count);
     }
 
+    
     data.order.address = address;
     data.order.sum = sum;
 
